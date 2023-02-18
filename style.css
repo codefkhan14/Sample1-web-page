@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+
+  box-sizing: border-box;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+  position: relative;
+  top: 12px;
+}
+#navbar {
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  display: flex;
+  position: relative;
+  left: 95px;
+}
+#navbar li {
+  padding: 20px;
+  list-style-type: none;
+  position: relative;
+  left: 20px;
+}
+#navbar li a {
+  text-decoration: none;
+  color: black;
+}
+#headbtn {
+  position: relative;
+  right: 100px;
+}
+.navbtn {
+  font-size: 16px;
+  padding: 9px 20px;
+  border-radius: 18px;
+  margin: 8px;
+  cursor: pointer;
+  outline: none;
+}
+#navbtn1 {
+  border: 1px solid rgb(190, 182, 182);
+  background-color: transparent;
+}
+#navbtn2 {
+  background-color: rgb(244, 116, 70);
+  color: white;
+  outline: none;
+  border: 1px solid rgb(244, 116, 70);
+}
+#navicon {
+  position: relative;
+  top: 20px;
+  color: rgb(244, 116, 70);
+  text-align: center;
+}
+#header2 {
+  display: flex;
+  height: 450px;
+
+  align-items: center;
+}
+#theoryheader2 {
+  width: 32%;
+  height: 250px;
+  position: relative;
+  left: 95px;
+}
+#blankheader2 {
+  background-color: rgb(244, 116, 70);
+  width: 550px;
+  height: 450px;
+  position: absolute;
+  right: 0px;
+  top: 80px;
+}
+#header2img {
+  position: relative;
+  top: 13px;
+  right: -300px;
+  z-index: 1;
+}
+#header3 {
+  position: relative;
+  top: 105px;
+  text-align: center;
+}
+#header3 div {
+  display: flex;
+  justify-content: space-between;
+  width: 49%;
+  position: relative;
+  left: 400px;
+  top: 20px;
+  text-align: center;
+}
+
+#header4 {
+  position: relative;
+  top: 250px;
+}
+#menus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 40px;
+  flex-wrap: wrap;
+}
+.menu1 {
+  margin: 0 20px;
+  border-radius: 20px;
+  border: 2px solid rgb(183, 183, 183);
+  width: 16%;
+  text-align: center;
+  height: 400px;
+}
+#header5 {
+  position: relative;
+  top: 500px;
+  display: flex;
+  height: 670px;
+
+  background-color: rgb(242, 236, 228);
+}
+#header5main2 {
+  width: 480px;
+  position: relative;
+  left: 480px;
+  top: 100px;
+}
+#header5img {
+  position: relative;
+  left: 160px;
+  top: 70px;
+  width: 450px;
+  height: 500px;
+  border-radius: 20px;
+}
+#header6 {
+  display: flex;
+}
+#header6main {
+  background-color: rgb(244, 116, 70);
+  color: white;
+}
+.topp {
+  width: 50%;
+  position: relative;
+  top: 200px;
+  left: 200px;
+}
